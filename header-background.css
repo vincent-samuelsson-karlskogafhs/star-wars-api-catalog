@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+}
+
+.header-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: start;
+  background-image: url(assets/img/header-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: var(--font-ropa-sans);
+  font-weight: 400;
+  font-size: 3.9rem;
+  color: #ffd600;
+}

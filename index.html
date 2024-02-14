@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vincent Samuelsson - star was - api - catalog</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="container.css" />
+    <link rel="stylesheet" href="header-background.css" />
+    <!-- FONTS START -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS END -->
     <script src="main.js" defer></script>
   </head>
   <body>
     <!-- Omfamnar hela / allt -->
     <div class="container">
-      <!-- Search bar start -->
-      <div class="search">
-        <input
-          class="search-input"
-          type="text"
-          placeholder="search for character"
-        />
-        <button class="search-button">Search</button>
-      </div>
-      <!-- serch bar end -->
       <!-- Header Start -->
-      <header>
+      <div class="main-header">
         <div class="header-background">
           <h1 class="heading">Star Wars Catalog</h1>
         </div>
-      </header>
+      </div>
       <!-- header End -->
       <!-- Characters Content Start -->
-      <div class="main-content">
+      <div class="content-character">
         <div class="character-list">
           <h2 class="h2-characters">Characters</h2>
           <ul class="list">
@@ -51,46 +51,46 @@
               <p class="character-name">Owen Lars</p>
             </li>
           </ul>
-          <div class="character-footer-pagination">
-            <button class="first">First</button>
-            <button class="previous"></button>
-            <div class="page-number">1</div>
-            <button class="next">Next</button>
-            <button>Last</button>
-          </div>
         </div>
-        <!-- Details - Start -->
-        <div class="container-details">
-          <div class="details">
-            <h2 class="h2-details">Details</h2>
-          </div>
-          <!-- Character start -->
-          <div class="character-details">
-            <h3 class="name-of-character">Luke Skywalker</h3>
-            <p>Height: 172</p>
-            <p>Mass: 77</p>
-            <p>Hair Color: blond</p>
-            <p>Skin Color: fair</p>
-            <p>Eye Color: blue</p>
-            <p>Birth year: 19BBY</p>
-            <p>Gender: Male</p>
-          </div>
-          <!-- Character end -->
-          <!-- Planet Detail start -->
-          <div class="planet-details">
-            <h3 class="name-of-character">Tatooine</h3>
-            <p>Rotation period: 23</p>
-            <p>Orbital period: 304</p>
-            <p>Diameter: 10465</p>
-            <p>Climate: arid</p>
-            <p>Gravity: 1 standard</p>
-            <p>Terrain: desert</p>
-          </div>
+        <div class="character-footer-pagination">
+          <button class="first">First</button>
+          <button class="previous"></button>
+          <div class="page-number">1</div>
+          <button class="next">Next</button>
+          <button>Last</button>
+        </div>
+      </div>
+      <!-- Details - Start -->
+      <div class="content-details">
+        <div class="details">
+          <h2 class="h2-details">Details</h2>
+        </div>
+        <!-- Character details start -->
+        <div class="character-details">
+          <h3 class="name-of-character">Luke Skywalker</h3>
+          <p>Height: 172</p>
+          <p>Mass: 77</p>
+          <p>Hair Color: blond</p>
+          <p>Skin Color: fair</p>
+          <p>Eye Color: blue</p>
+          <p>Birth year: 19BBY</p>
+          <p>Gender: Male</p>
+        </div>
+        <!-- Character details end -->
+        <!-- Planet Detail start -->
+        <div class="planet-details">
+          <h3 class="name-of-character">Tatooine</h3>
+          <p>Rotation period: 23</p>
+          <p>Orbital period: 304</p>
+          <p>Diameter: 10465</p>
+          <p>Climate: arid</p>
+          <p>Gravity: 1 standard</p>
+          <p>Terrain: desert</p>
         </div>
       </div>
       <!-- Chararcters Content End -->
 
-      <!-- här slutar omfattning av hela / allt -->
+      <!-- här slutar container -->
     </div>
   </body>
 </html>
