@@ -1,12 +1,21 @@
 .main-header {
   display: flex;
+  font-family: var(--font-ropa-san);
+  color: var(--yellow-starwars-color);
+}
+
+.heading {
+  color: red;
+  font-weight: 400;
+  font-size: 4rem;
+  letter-spacing: 32;
+  margin-left: 4rem;
 }
 
 .header-background {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
-  text-align: start;
+  align-items: center;
   background-image: url(assets/img/header-background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,11 +25,4 @@
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-.heading {
-  font-family: var(--font-ropa-sans);
-  font-weight: 400;
-  font-size: 3.9rem;
-  color: #ffd600;
 }
