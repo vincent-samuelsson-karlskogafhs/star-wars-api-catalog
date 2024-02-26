@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+}
+
+/* Root var () */
+
 :root {
+  /* Colors start */
   --font-roboto: "Roboto", sans-serif;
   --font-ropa-san: "Ropa Sans", sans-serif;
-
-  /* Colors */
+  --font-black: #191919;
+  --navy-lighter: #282828;
   --yellow-starwars-color: #ffd600;
+  /* colors end */
 }
