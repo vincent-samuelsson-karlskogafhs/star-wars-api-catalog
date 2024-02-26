@@ -7,8 +7,6 @@ import {
   charactersDetails,
 } from "./constant.js";
 
-// du har gömt att skapa elementen för funtionerna i DOM. , du behöver alla elemnt i DOM för att få API - gör efter lunch
-
 // GLOBAL VARIABLES
 const baseURL = "https://swapi.dev/api";
 let currentCharactersObject;
