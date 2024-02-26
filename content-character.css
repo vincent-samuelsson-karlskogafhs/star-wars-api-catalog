@@ -1,5 +1,6 @@
-.list {
-  list-style: none;
+.content-character {
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .character-footer-pagination {
@@ -8,5 +9,23 @@
   justify-content: center;
   color: var(--yellow-starwars-color);
   font-size: 1.5rem;
-  background-color: green;
+  /* background-color: green; */
+  /* temp */
+  padding-top: 1rem;
+}
+
+.content-character .character-list {
+  color: var(--yellow-starwars-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.content-character .character-list:hover {
+  background-color: blueviolet;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
 }

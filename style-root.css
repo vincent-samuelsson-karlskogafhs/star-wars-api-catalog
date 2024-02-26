@@ -3,6 +3,7 @@
 }
 
 .body {
+  /* kolla varför den inte övertrider */
   color: var(--font-black);
 }
 
