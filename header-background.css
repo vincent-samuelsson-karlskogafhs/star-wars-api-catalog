@@ -5,24 +5,28 @@
 }
 
 .heading {
-  color: red;
+  color: var(--yellow-starwars-color);
   font-weight: 400;
   font-size: 4rem;
-  letter-spacing: 32;
   margin-left: 4rem;
+}
+
+.heading h1 {
+  color: var(--yellow-starwars-color);
+  font-family: var(--font-ropa-san);
+  font-size: 4rem;
 }
 
 .header-background {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   background-image: url(assets/img/header-background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-color: gray;
-  height: 100vh;
+  height: 30svh;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  /* temp? */
+  padding: 2rem;
+  /* tem padding 2rem? */
 }

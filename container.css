@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* position: relative; temp */
+  gap: 4rem;
+  top: -4rem;
+}
+
+/* överskrider detta container i värde ? */
+.content-character {
+  display: flex;
+  flex-direction: column;
+  /* temp */
+  aspect-ratio: 2/3;
+  /* ###### */
+  background-color: red;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  /* storlek (temp)*/
+  width: 23.75rem;
+}

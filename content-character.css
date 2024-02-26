@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+}
+
+.character-footer-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow-starwars-color);
+  font-size: 1.5rem;
+  background-color: green;
+}
