@@ -6,6 +6,7 @@ import {
   PAGINATION_RIGHT_ICON,
   contentCharacters,
   charactersDetails,
+  character_Footer_Pagination,
 } from "./constant.js";
 
 export async function fetchCharacters(url) {
@@ -41,5 +42,6 @@ export function createNavBarPagination(currentPage, totalPages) {
     const navbarPaginationElements = `
     <span class"material-symbols-outlined left ${currentPage === 1 ? "disabled" : ""}">
      ${PAGINATION_LEFT_ICON}</span>
-    `
+    `;
+    character-footer-pagination.innerHTML = navbarPaginationElements;
 }

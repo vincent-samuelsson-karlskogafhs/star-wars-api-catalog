@@ -5,6 +5,7 @@ import {
   PAGINATION_RIGHT_ICON,
   contentCharacters,
   charactersDetails,
+  character_Footer_Pagination,
 } from "./constant.js";
 
 // GLOBAL VARIABLES
