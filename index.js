@@ -9,6 +9,10 @@ import {
   charactersDetails,
   character_Footer_Pagination,
 } from "./constant.js";
+import {
+  createCharacterInfoElements,
+  createNavBarPagination,
+} from "./function.js";
 
 // GLOBAL VARIABLES
 const baseURL = "https://swapi.dev/api";
@@ -29,4 +33,10 @@ PAGINATION.addEventListener("click", (Event) => handlPaginationOnClick(Event));
 fetchCharacters(`${baseURL}/people`).then((contentCharacters) => {
   currentCharactersObject = currentCharactersObject;
   totalPages = Math.floor(currentCharactersObject.count / 10);
+  displayCharacters = displayCharacters.results;
+
+  createCharacterInfoElements(charactersDetails.results);
+  createNavBarPagination(currentPage, totalPages);
 });
+
+// functions needed in this file, they need access to the "global" variables
