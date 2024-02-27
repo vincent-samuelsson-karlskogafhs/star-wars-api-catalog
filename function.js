@@ -1,4 +1,4 @@
-// ladda in mina elements
+// ladda in mina elements - men känns som att jag har missat en massa vilekt gör att inget läses in - tror att jag har förviratt mig själv då jag har döpt namnet olika i import jämfört med html , bör kankse hålla mig till  vad jag har döpt dom i htmL ?
 
 import {
   PAGINATION,

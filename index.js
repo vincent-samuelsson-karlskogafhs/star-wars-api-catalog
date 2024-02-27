@@ -1,4 +1,4 @@
-// känns som att jag har missat en massa här - evnt lagt in fel - kanske borde döpa paginations så att det blir rätt i min HTML
+// känns som att jag har missat en massa här - evnt lagt in fel - kanske borde döpa paginations så att det blir rätt i min HTML -// ladda in mina elements - men känns som att jag har missat en massa vilekt gör att inget läses in
 
 import {
   PAGINATION_LEFT_ICON,
