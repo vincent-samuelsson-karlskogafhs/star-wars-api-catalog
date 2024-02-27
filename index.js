@@ -1,3 +1,5 @@
+// känns som att jag har missat en massa här - evnt lagt in fel - kanske borde döpa paginations så att det blir rätt i min HTML
+
 import {
   PAGINATION_LEFT_ICON,
   PAGINATION,
